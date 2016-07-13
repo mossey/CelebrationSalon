@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('/products', function () {
     return view('services.products');
 });
+Route::get('/products/read','products@read');
 Route::get('/bookings', function () {
     return view('services.bookings');
 });
@@ -31,7 +32,7 @@ Route::get('/buy', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
-
+/*
 Route::post('/products', 'products@create');
 Route::get('/products', 'products@update');
 Route::get('/products', 'products@read');
@@ -59,3 +60,4 @@ Route::get('/styling', 'styling@read');
 Route::get('/styling', 'styling@update');
 Route::delete('/styling', 'styling@delete');
 
+*/
