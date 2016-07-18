@@ -17,6 +17,7 @@ class Salonists extends Migration
             $table->string('stylistName');
             $table->string('stylistPic');
             $table->string('stylistSpecialization');
+            $table->timestamps();
 
 
         });
@@ -33,3 +34,4 @@ class Salonists extends Migration
     }
 
 }
+
