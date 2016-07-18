@@ -7,9 +7,18 @@ Celebration salon is built on top of the Laravel Framework. Laravel is a web app
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
 
+## Installation
+
+To use this you must have php 5 and above, curl and composer  installed.
+clone the project to your server then navigate to the celebrationSalon directory.
+"Composer install" 
+"php artisan Migrate"
+and thats it 
+
+
 ## Vulnerabilities and other issues
 
-If you discover any flawa please contact emaio me at nandwa.moses@gmail.com
+If you discover any flaws please contact emaio me at nandwa.moses@gmail.com
 
 ## License
 
