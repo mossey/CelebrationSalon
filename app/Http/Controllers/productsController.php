@@ -53,7 +53,9 @@ class productsController extends Controller
     }
     public function show($id){
         $products = DB::table('products')->where('productName',$id)->get();
-        return $products;
+
+        return View("sales.addForm")->with('products',$products);
+
 
     }
     public function edit($id){
