@@ -19,7 +19,7 @@ class Products extends Migration
             $table->integer('productQuantity');
             $table->string('productDescription');
             $table->integer('productCost');
-
+            $table->timestamps();
 
         });
     }

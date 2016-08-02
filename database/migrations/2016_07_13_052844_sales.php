@@ -19,7 +19,7 @@ class Sales extends Migration
             $table->integer('productQuantity');
             $table->integer('amountSpent');
             $table->string('user');
-
+            $table->timestamps();
 
         });
     }

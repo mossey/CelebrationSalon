@@ -19,8 +19,8 @@ class Bookings extends Migration
             $table->integer('stylingID');
             $table->integer('stylistID');
             $table->string('stylistName');
-            
-            
+
+            $table->timestamps();
             $table->dateTime('appointmentTime');
             $table->timestamps('bookingTime');
         });

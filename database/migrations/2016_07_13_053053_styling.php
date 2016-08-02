@@ -17,7 +17,7 @@ class Styling extends Migration
             $table->string('stylingName');
             $table->string('stylingPic');
             $table->string('stylingCost');
-
+            $table->timestamps();
 
         });
     }
